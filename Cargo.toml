@@ -1,0 +1,7 @@
+[package]
+name = "libivy"
+version = "0.1.0"
+authors = ["Kenny Levinsen <kl@kl.wtf>"]
+edition = "2018"
+
+[dependencies]
