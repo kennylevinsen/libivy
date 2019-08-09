@@ -58,6 +58,6 @@ mod tests {
 
     #[test]
     fn fractional() {
-        assert_eq!(crate::eval("1/2"), Ok("1/2".to_string()));
+        assert_eq!(crate::eval("1/2"), Ok("0.5".to_string()));
     }
 }
