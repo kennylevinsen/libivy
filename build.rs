@@ -8,8 +8,9 @@ fn main() {
         .arg("-buildmode=c-archive")
         .arg("-ldflags=-s -w")
         .arg("libivy.go")
-        .current_dir("go")
+        .env("GOPATH", std::env::current_dir().unwrap().join("gopath").to_str().unwrap())
         .env("GO111MODULE", "on")
+        .current_dir("go")
         .spawn()
         .unwrap();
 

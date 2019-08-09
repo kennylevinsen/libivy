@@ -1,5 +1,6 @@
 /target
 **/*.rs.bk
 Cargo.lock
+gopath
 go/libivy.a
 go/libivy.h
